@@ -11,11 +11,14 @@
   <link rel = "stylesheet"
    type = "text/css"
    href = "myStyle.css" />
-   <script>
-    window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
-    ga('create', 'UA-88371949-1', 'auto');
-    ga('send', 'pageview');
-  </script>
+ <!--   <style type="text/css">
+.bgimg {
+    background-image: url('dest/images/banner.jpg');
+         background-repeat: no-repeat;
+     background-position: center;
+}
+</style>
+  --> 
   <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <link href="dest/css/styles.min.css" rel="stylesheet"/>
 </head>
@@ -30,24 +33,23 @@
   			<div class="container">
       			<div class="nav-wrapper">
 					<!-- Text Logo-->
-		            <a href="/" class="brand-logo">Ujjwal Agrawal</a>
+		          <a href="/" class="brand-logo">Ujjwal Agrawal</a>
 
             		<ul class="right hide-on-med-and-down custom-nav menu-scroll">
         			<li><a href="#about">ABOUT ME</a></li>
-        			<li><a href="#projects">SKILLS</a></li>
-			        <li><a href="#skills">PROJECTS</a></li>
+        			<li><a href="#skills">SKILLS</a></li>
+			        <li><a href="#projects">PROJECTS</a></li>
 			        <li><a href="#resume">RESUME</a></li>
-			        <li><a href="#contact">CONTACT</a></li>
+			        <li><a href="#footer">CONTACT</a></li>
 			      </ul>
 			      <!-- For Mobile View -->
-            		<ul id="slide-out" class="side-nav menu-scroll">
-		              <li><a href="#about">About Me</a></li>
-		              <li><a href="#resume">Resume</a></li>
-		              <li><a href="#portfolio">Portfolio</a></li>
-		              <li><a href="#testimonial">Testimonial</a></li>
-		              <li><a href="#blog">Blog</a></li>
-		              <li><a href="#footer">Contact</a></li>
-	           		</ul>
+            	<ul id="slide-out" class="side-nav menu-scroll">
+		          <li><a href="#about">ABOUT ME</a></li>
+              <li><a href="#skills">SKILLS</a></li>
+              <li><a href="#projects">PROJECTS</a></li>
+              <li><a href="#resume">RESUME</a></li>
+              <li><a href="#footer">CONTACT</a></li>
+            	</ul>
                     <a href="#" data-activates="slide-out" class="button-collapse"><i class="mdi-navigation-menu"></i></a>
 
     			</div>
@@ -62,19 +64,19 @@
 	<main role="main">
 																	<!-- Home Section-->
 		<section id="home">
-      		<div class="overlay-section">
+          <div class="overlay-section">
         		<div class="container">
         			<div class="row">
-            			<div class="col s12">
-              				<div class="home-inner">
-              					<h1 class="home-title">HI! I'm <span>Ujjwal Agrawal</span></h1>
+                  <div class="col s12">
+                    <div class="home-inner">
+                       <h1 class="home-title">HI! I'm <span>Ujjwal Agrawal</span></h1>
                   				<p>Junior Year Undergraduate <br>Indian Institute of technology (ISM) Dhanbad</p>
                   				<a class="hire-me-btn btn waves-effect waves-light btn-large" href="#footer">Contact Me </i>
                   				</a>
                   			<button class="btn btn-floating waves-effect waves-light btn-large white call-to-about"><i class="material-icons">play_for_work</i></button>
                 			</div>
               			</div>
-            		</div>
+                </div>
         		</div>
         	</div>
       	</section>
@@ -95,7 +97,7 @@
                       <h3>About Me</h3>
                       <p>
                         Geek,Programmer,Android Developer.You can call me whatever you like to .But above all I am a simple kid who loves to code.Currently I am pursuing my UG in Electronics and Communication Engineering from IIT(ISM) Dhanbad.</p>
-                      <div class="personal-information col s12 m12 l6">
+                        <div class="personal-information col s12 m12 l6">
                         <h3>Personal Information</h3>
                         <ul>
                           <li><span>Name : </span>Ujjwal Agrawal</li>
@@ -103,8 +105,8 @@
                           <li><span>Phone : </span>+91-8770776846</li>
                           <li><span>Email : </span>ujjwal.iitism@gmail.com</li>
                         </ul>
-                      </div>
-                      <div class="resume-download col s12 m12 l6">
+                        </div>
+                        <div class="resume-download col s12 m12 l6">
                         <a href="https://drive.google.com/file/d/0B1cWZGp8N63McEpWQXNDSlhYNFE/view?usp=sharing" class="waves-effect waves-light btn-large resume-btn" target="_blank"><i class="mdi-content-archive left"></i> Download Resume</a>
                       </div>
                     </div>
@@ -115,9 +117,201 @@
           </div>
         	</div>
         </section>
+            <!-- Start Skill -->
+        <section id="skill">
+          <div class="container">
+            <div class="skill-inner">
+             <h2 class="title">Skills</h2>
+         <!--  <div class="container-fluid bg text-center">
+          -->    <div class="col-sm-3">
+              <h5>Programming Languages</h5>
+              <p>C/C++<br>
+              Java<br>
+              Python<br></p>
+             </div>
+             <div class="col-sm-3">
+              <h5>Development</h5>
+              <p>Android App Development<br>
+              Flask(Python)<br>
+              HTML5/CSS3<br>
+              NodeJS(ExpressJS)<br>
+              </p>
+             </div>
+             <div class="col-sm-3">
+              <h5>Hardware Programming </h5>
+              <p>Arduino<br>
+              Raspberry Pi<br>
+              </p>
+             </div>
+           
+             <div class="col-sm-3">
+              <h5>Tools </h5>
+              <p>OS:Ubuntu,Windows,RaspbianOS<br>
+              Android Studio<br>
+              Arduino IDE<br>
+              </p>
+             </div>
+           </div>
+        </section>
+      <section id="projects">
+        <div class="portfolio-top">
+            <div class="container">
+              <div class="portfolio-top-inner">
+                <h2 class="title">Projects</h2>
+              </div>
+            </div>
+        </div>
+          <div class="portfolio-bottom card-content reveal-title">
+            <div class="container">
 
+    
+                                                        <!--  ISANVI  -->
+         <div class="portfolio-item card row">
+                <div class="project-img col s12 m8 offset-m2 l4" >
+                  <iframe width="100%" height="250" id="isanvi-frame" frameborder="0" allowfullscreen></iframe>
+                </div>
+         <div class="project-description col s12 m12 l8">
+                  <div class="project-title">ISANVI</div>
+                  <div class="project-description">
+                    <p>The prototype built during Hackfest 2017 in 36hrs,ISANVI stands for Indoor Surveillance And Navigation for the Visually Impaired . A voice-recognisation enabled Android App to help visually-impared people find objects near them by just sending object name in the voice command.The app will return the position of object to the person in speech format. </p>
+        <div class="buttons">       
+
+        <b>Project Repositories</b>
+                      <a class="waves-effect waves-teal btn" href="https://github.com/ujjwalagrawal17/isanvi-app" target="_blank">Android App</a>
+                      <a class="waves-effect waves-teal btn" href="https://github.com/tech-ism/isanvi" target="_blank">Server</a>
+                      
+                      <div style="margin-top: 3px;">
+                        <b>Technologies used:</b>
+                        <a class="chip">Android</a>
+                        <a class="chip">Flask</a>
+                        <a class="chip">OpenCV</a>
+                        <a class="chip">Raspberry Pi Commands</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+                                <!-- Attendence System -->
+
+        <div class="portfolio-item card row">
+                <div class="project-img col s12 m8 offset-m2 l4" >
+                  <iframe width="100%" height="250" id="isanvi-frame" frameborder="0" allowfullscreen></iframe>
+                </div>
+         <div class="project-description col s12 m12 l8">
+                  <div class="project-title">ISANVI</div>
+                  <div class="project-description">
+                    <p>The prototype built during Hackfest 2017 in 36hrs,ISANVI stands for Indoor Surveillance And Navigation for the Visually Impaired . A voice-recognisation enabled Android App to help visually-impared people find objects near them by just sending object name in the voice command.The app will return the position of object to the person in speech format. </p>
+        <div class="buttons">       
+
+        <b>Project Repositories</b>
+                      <a class="waves-effect waves-teal btn" href="https://github.com/ujjwalagrawal17/isanvi-app" target="_blank">Android App</a>
+                      <a class="waves-effect waves-teal btn" href="https://github.com/tech-ism/isanvi" target="_blank">Server</a>
+                      
+                      <div style="margin-top: 3px;">
+                        <b>Technologies used:</b>
+                        <a class="chip">Android</a>
+                        <a class="chip">Flask</a>
+                        <a class="chip">OpenCV</a>
+                        <a class="chip">Raspberry Pi Commands</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            </div>
+              </section>
+      <footer id="footer" role="contentinfo">
+                          <!-- Start Footer Top -->
+                          <div class="footer-top">
+                            <div class="container">
+                              <div class="row">
+                                <div class="col s12">
+                                  <div class="footer-top-inner">
+                                    <h2 class="title">Contact</h2>
+                                    <div class="social-profile-slider">
+                                      <div class="customNavigation">
+                                        <a class="btn prev3 btn-floating waves-effect waves-light btn-medium white"><span style="font-size: 1.4em; color: #3f51b5;">&lt;</span></a>
+                                        <a class="btn next3 btn-floating waves-effect waves-light btn-medium white"><span style="font-size: 1.4em; color: #3f51b5;">&gt;</span></a>
+                                      </div>
+                                      <div id="owl-carousel3" class="owl-carousel social-slider row">
+                                        <div class="col s12 item">
+                                          <a href="https://in.linkedin.com/in/jibinmathews7" target="_blank">
+                                            <center>
+                                              <img src="dest/logo/linkedin.png" toLoad="dest/logo/linkedin.png" class="social-logo" />
+                                              <br />
+                                              <p>
+                                                LinkedIn
+                                              </p>
+                                            </center>
+                                          </a>
+                                        </div>
+                                        <div class="col s12 item">
+                                          <a href="https://github.com/jazzyarchitects" target="_blank">
+                                            <center>
+                                              <img src="dest/logo/github.png" toLoad="dest/logo/github.png" class="social-logo" />
+                                              <br />
+                                              <p>Github</p>
+                                            </center>
+                                          </a>
+                                        </div>
+                                        <div class="col s12 item">
+                                          <a href="https://angel.co/jibin-mathews" target="_blank">
+                                            <center>
+                                              <img src="dest/logo/linkedin.png" toLoad="dest/logo/angel.png" class="social-logo" />
+                                              <br />
+                                              <p>Angel List</p>
+                                            </center>
+                                          </a>
+                                        </div>
+                                        <div class="col s12 item">
+                                          <a href="https://www.facebook.com/jibin.mathews7" target="_blank">
+                                            <center>
+                                              <img src="dest/logo/linkedin.png" toLoad="dest/logo/facebook.png" class="social-logo" />
+                                              <br />
+                                              <p>Facebook</p>
+                                            </center>
+                                          </a>
+                                        </div>                       
+                                         <div class="col s12 item">
+                                        <a href="https://plus.google.com/u/0/+JibinMathews7" target="_blank">
+                                          <center>
+                                            <img src="dest/logo/linkedin.png" toLoad="dest/logo/google.png" class="social-logo" />
+                                            <br />
+                                            <p>Google+</p>
+                                          </center>
+                                        </a>
+                                      </div>
+                                      <div class="col s12 item">
+                                        <a href="mailto:jibinmathews7@gmail.com">
+                                          <center>
+                                            <img src="dest/logo/linkedin.png" toLoad="dest/logo/gmail.png" class="social-logo" />
+                                            <br />
+                                            <p>Gmail</p>
+                                          </center>
+                                        </a>
+                                      </div>
+                                      <div class="col s12 item">
+                                        <a href="tel:+918877073355">
+                                          <center>
+                                            <img src="dest/logo/linkedin.png" toLoad="dest/logo/Whatsapp.png" class="social-logo" />
+                                            <br />
+                                            <p>Whatsapp</p>
+                                          </center>
+                                        </a>
+                                      </div>
+                                      </div>
+                                      </div>
+    </div>
+    </div>
+    </div>
+    </div>
+    </div>
+    </footer>
     </main>
 </div>
+                <script type="text/javascript" src="dest/js/script_large.js"></script>
 
 </body>
 </html>
