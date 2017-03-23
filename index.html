@@ -3,16 +3,21 @@
 <head>
 <title>Ujjwal Agrawal</title>
    <meta charset="utf-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0"/>
+
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
   <link rel = "stylesheet"
    type = "text/css"
    href = "myStyle.css" />
+   <script>
+    window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+    ga('create', 'UA-88371949-1', 'auto');
+    ga('send', 'pageview');
+  </script>
   <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <link href="dest/css/styles.min.css" rel="stylesheet"/>
-
 </head>
   
 
@@ -29,11 +34,22 @@
 
             		<ul class="right hide-on-med-and-down custom-nav menu-scroll">
         			<li><a href="#about">ABOUT ME</a></li>
-        			<li><a href="#projects">PROJECTS</a></li>
-			        <li><a href="#skills">SKILLS</a></li>
+        			<li><a href="#projects">SKILLS</a></li>
+			        <li><a href="#skills">PROJECTS</a></li>
 			        <li><a href="#resume">RESUME</a></li>
-			        <li><a href="#contact">Contact</a></li>
+			        <li><a href="#contact">CONTACT</a></li>
 			      </ul>
+			      <!-- For Mobile View -->
+            		<ul id="slide-out" class="side-nav menu-scroll">
+		              <li><a href="#about">About Me</a></li>
+		              <li><a href="#resume">Resume</a></li>
+		              <li><a href="#portfolio">Portfolio</a></li>
+		              <li><a href="#testimonial">Testimonial</a></li>
+		              <li><a href="#blog">Blog</a></li>
+		              <li><a href="#footer">Contact</a></li>
+	           		</ul>
+                    <a href="#" data-activates="slide-out" class="button-collapse"><i class="mdi-navigation-menu"></i></a>
+
     			</div>
   			</div>
 		</nav>
@@ -41,8 +57,10 @@
 </header>
 
 	<!-- NavBar Closed   -->
+
 <div class="main-wrapper">
 	<main role="main">
+																	<!-- Home Section-->
 		<section id="home">
       		<div class="overlay-section">
         		<div class="container">
@@ -50,34 +68,56 @@
             			<div class="col s12">
               				<div class="home-inner">
               					<h1 class="home-title">HI! I'm <span>Ujjwal Agrawal</span></h1>
-                  				<p>A <b><u>Android</u></b> Developer with some experience in <b><u>ExpressJS</u></b> and <b><u>OpenCV</u></b></p>
+                  				<p>Junior Year Undergraduate <br>Indian Institute of technology (ISM) Dhanbad</p>
                   				<a class="hire-me-btn btn waves-effect waves-light btn-large" href="#footer">Contact Me </i>
                   				</a>
-                  			<!--	<button class="btn btn-floating waves-effect waves-light btn-large whitecall-to-about"><i class="material-icons">play_for_work</i></button>
-                			-->
+                  			<button class="btn btn-floating waves-effect waves-light btn-large white call-to-about"><i class="material-icons">play_for_work</i></button>
                 			</div>
               			</div>
             		</div>
         		</div>
         	</div>
       	</section>
+      																<!-- About Section  -->
       	<section id="about">
       		<div class="container">
-        		<div class="row">
-        		</div>
+      		<div class="row">
+            <div class="col s12">
+              <div class="about-inner">
+                <div class="row">
+                  <div class="col s12 m4 l3">
+                    <div class="about-inner-left">
+                      <img class="profile-img" src="dest/images/ujjwal.jpg" toLoad="dest/images/ujjwal.jpg" alt="Profile Image" style="margin-top:25px;">
+                    </div>
+                  </div>
+                  <div class="col s12 m8 l9">
+                    <div class="about-inner-right">
+                      <h3>About Me</h3>
+                      <p>
+                        Geek,Programmer,Android Developer.You can call me whatever you like to .But above all I am a simple kid who loves to code.Currently I am pursuing my UG in Electronics and Communication Engineering from IIT(ISM) Dhanbad.</p>
+                      <div class="personal-information col s12 m12 l6">
+                        <h3>Personal Information</h3>
+                        <ul>
+                          <li><span>Name : </span>Ujjwal Agrawal</li>
+                          <li><span>Age : </span>19</li>
+                          <li><span>Phone : </span>+91-8770776846</li>
+                          <li><span>Email : </span>ujjwal.iitism@gmail.com</li>
+                        </ul>
+                      </div>
+                      <div class="resume-download col s12 m12 l6">
+                        <a href="https://drive.google.com/file/d/0B1cWZGp8N63McEpWQXNDSlhYNFE/view?usp=sharing" class="waves-effect waves-light btn-large resume-btn" target="_blank"><i class="mdi-content-archive left"></i> Download Resume</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
         	</div>
         </section>
 
     </main>
 </div>
 
-
-
-
-
-
-
-
-
-  </body>
+</body>
 </html>
