@@ -9052,12 +9052,13 @@ Vel = $ ? $.Velocity : Velocity,
     }
 
 
+
     (jQuery);
     var iframeUrls = {
         isanvi: "https://www.youtube.com/embed/Q9xU2-Z3Xuo",
         haptiq: "https://www.youtube.com/embed/JODCdEAgNwA"
     },
-    usedRepositories = ["https://github.com/jazzyarchitects/java-inspired-node-logger", "https://github.com/jazzyarchitects/electron-music-player"];
+    usedRepositories = ["https://github.com/ujjwalagrawal17/ISANVI-App", "https://github.com/tech-ism/ISANVI","https://github.com/ujjwalagrawal17/Portfolio"];
 
     jQuery(function(a) {
     function b(b) {
